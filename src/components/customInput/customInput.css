@@ -1,0 +1,22 @@
+.custom-input .field-label{
+    display: block;
+    margin-top: 2px;
+    font-size: 14px;
+    color: var(--text-disable);
+}
+.MuiInputLabel-root,
+.MuiInputLabel-root.MuiInputLabel-animated{
+    color: var(--light-grey)!important;
+}
+.custom-checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-checkbox input{
+    height: 18px;
+    width: 18px;
+    outline: none;
+    accent-color: var(--dark-red);
+    cursor: pointer;
+}

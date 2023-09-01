@@ -1,0 +1,20 @@
+.MuiButton-root.MuiButton-outlined{
+    border: 2px solid var(--text-disable);
+    color: var(--text-disable);
+    box-shadow: 0px 0px 10px var(--box-shadow);
+    text-transform: none;
+}
+.MuiButton-root.MuiButton-outlined:hover{
+    border: 2px solid var(--text-disable);
+    color: var(--text-disable);
+    background-color: white;
+}
+.MuiButton-root.MuiButton-contained{
+    background-color: var(--dark-red);
+    box-shadow: 0px 0px 10px var(--box-shadow);
+    text-transform: none;
+}
+.MuiButton-root.MuiButton-contained:hover{
+    background-color: var(--dark-red);
+}
+

@@ -1,0 +1,46 @@
+.loader-root-cont {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999999;
+    background-color: rgb(188 188 188 / 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-root-cont .loader {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    animation: spin 1.5s linear infinite;
+
+}
+
+.loader-root-cont svg {
+    stroke: var(--dark-red) !important;
+    width: 100%;
+    background-color: transparent !important;
+}
+
+.loader-root-cont circle {
+    stroke: var(--dark-red) !important;
+}
+.loader-root-cont .MuiTypography-root {
+    font-size: 22px !important;
+    color: #870016 !important;
+    font-weight: bold !important;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

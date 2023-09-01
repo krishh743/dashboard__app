@@ -1,0 +1,155 @@
+.MuiDrawer-root.hide {
+    display: none;
+}
+
+.nav-opener {
+    display: flex !important;
+    justify-content: flex-start;
+    margin-left: 16px;
+    margin-top: 92px;
+    padding: 10px;
+    max-width: fit-content;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.accordian-selected {
+    background-color: var(--background-light-grey) !important;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.accordian-inactive {
+    background-color: var(--list-selected) !important;
+}
+
+.dashboard-list-item {
+    background-color: var(--list-selected) !important;
+}
+
+.MuiButtonBase-root.MuiListItemButton-root .MuiTouchRipple-root {
+    display: none;
+}
+
+.nav-opener .menu-icon {
+    width: 23px;
+}
+
+.list-item {
+    padding-inline: 28px !important;
+}
+
+.list-item .MuiListItemText-primary {
+    color: var(--dark-red);
+    font-weight: bold !important;
+}
+
+.list-item img {
+    width: 18px;
+    margin-right: 24px;
+}
+
+.list-item .MuiListItemIcon-root {
+    min-width: auto;
+}
+
+.menu-accordian:focus {
+    animation: none;
+}
+
+.menu-accordian .MuiAccordion-root {
+    box-shadow: none;
+    position: static;
+    background-color: transparent;
+    animation: none !important;
+}
+
+.menu-accordian .MuiAccordion-root.Mui-expanded {
+    margin: 0px;
+}
+
+.menu-accordian .MuiAccordionSummary-root {
+    padding-inline: 28px 0 !important;
+    position: relative;
+    animation: none !important;
+}
+
+.menu-accordian .MuiAccordionSummary-root img {
+    width: 25px;
+    margin-right: 18px;
+}
+
+.menu-accordian .MuiAccordionSummary-root.Mui-expanded {
+    min-height: 48px;
+    height: 48px !important;
+    margin: 0;
+}
+
+.menu-accordian .MuiAccordionSummary-root .MuiTypography-root {
+    color: var(--dark-red);
+    font-weight: bold;
+    margin-right: 10px;
+    animation: none !important;
+}
+
+.menu-accordian .MuiAccordionSummary-root .MuiAccordionSummary-expandIconWrapper {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: none !important;
+}
+
+.menu-accordian .MuiAccordionSummary-root.Mui-expanded .MuiAccordionSummary-expandIconWrapper {
+    transform: translateY(-50%) rotate(180deg);
+    animation: none !important;
+}
+
+.menu-accordian .MuiAccordionSummary-root .MuiSvgIcon-root {
+    color: var(--dark-red);
+    font-weight: bold;
+}
+
+.menu-accordian .MuiAccordionSummary-content.Mui-expanded {
+    margin: 12px 0;
+}
+
+.menu-accordian .list-item .MuiListItemText-primary {
+    color: var(--light-grey);
+    font-weight: normal !important;
+    padding-left: 27px;
+}
+
+.menu-accordian.MuiListItemButton-root:hover {
+    background-color: var(--white) !important;
+}
+
+.MuiAccordion-region a:first-of-type .MuiListItemButton-root{
+    margin-top: 6px;
+} 
+
+.MuiListItemButton-root.Mui-selected {
+    background-color: var(--list-selected) !important;
+}
+
+.MuiAccordion-root.MuiPaper-root {
+    width: 240px;
+}
+
+.MuiListItemButton-root.menu-accordian {
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .nav-opener {
+        margin-left: 6px;
+    }
+
+    .list-item {
+        padding-inline: 17px !important;
+    }
+
+    .menu-accordian .MuiAccordionSummary-root {
+        padding-inline: 16px 0 !important;
+    }
+}

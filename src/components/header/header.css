@@ -1,0 +1,40 @@
+.main-header {
+    padding: 40px 80px;
+    display: flex;
+    flex: 0 1 auto;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.main-header .subHeading {
+    color: var(--dark-red);
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.main-header .heading {
+    color: var(--dark-grey);
+    font-size: 32px;
+}
+
+.main-header .header-button {
+    width: 160px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-header {
+        padding: 40px 3vw;
+    }
+    .main-header .heading{
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-header {
+        padding: 30px 3vw;
+    }
+    .main-header .heading{
+        font-size: 22px;
+    }
+}
